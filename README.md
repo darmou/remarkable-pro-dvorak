@@ -19,8 +19,10 @@ which can be found https://github.com/reMarkable/linux-imx-rm
 
 
 Extract the kernel source
+```agsl
 tar -xvf linux-imx-rel-4.4-ng-3.18.1.1-4f90133eb4.tar.gz
 cd linux-imx-rel-4.4-ng-3.18.1.1-4f90133eb4
+```
 
 Next we need to compile using the remarkable toolchain
 

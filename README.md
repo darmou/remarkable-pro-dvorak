@@ -22,6 +22,7 @@ Extract the kernel source
 ```agsl
 tar -xvf linux-imx-rel-4.4-ng-3.18.1.1-4f90133eb4.tar.gz
 cd linux-imx-rel-4.4-ng-3.18.1.1-4f90133eb4
+cp /path/to/dvorak_version_in_this_repo/rm_hwmon_keyboard.c drivers/platform/remarkable/rm-hwmon/rm_hwmon_keyboard.c
 ```
 
 Next we need to compile using the remarkable toolchain
